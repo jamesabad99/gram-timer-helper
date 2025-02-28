@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { useStore } from "@/lib/store";
+import useStore from "@/lib/store";
 import { TrendingUp, Calendar, Clock, Instagram } from "lucide-react";
 
 const data = [
